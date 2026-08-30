@@ -1,0 +1,14 @@
+[package]
+name = "tauri-react-ts-harness"
+version = "0.1.0"
+description = "Tauri React TypeScript AI-Driven App Starter"
+authors = ["Development Team"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
